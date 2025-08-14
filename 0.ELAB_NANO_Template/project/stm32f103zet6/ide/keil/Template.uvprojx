@@ -417,6 +417,13 @@
         </Group>
         <Group>
           <GroupName>bsp</GroupName>
+          <Files>
+            <File>
+              <FileName>bsp.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\usr\bsp\bsp.c</FilePath>
+            </File>
+          </Files>
         </Group>
         <Group>
           <GroupName>stm32f1_hal</GroupName>
