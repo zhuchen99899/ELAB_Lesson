@@ -8,10 +8,10 @@
  * 
  */
 
- 
- #ifndef ELAB_STD_H 
- #define ELAB_STD_H 
- 
+
+#ifndef ELAB_STD_H 
+#define ELAB_STD_H 
+
  /* ==================== [Includes] ========================================== */
 #include <stdint.h>
 #include <stddef.h>
@@ -36,6 +36,5 @@ extern "C"{
 }
 #endif
 
+
 #endif	/* ELAB_STD_H */
- 
- 

@@ -74,10 +74,8 @@
 
 
 
- #ifdef __cplusplus
- }
- #endif
- 
- #endif	/* ELAB_LOG_H */
- 
- 
+#ifdef __cplusplus
+}
+#endif
+
+#endif	/* ELAB_LOG_H */

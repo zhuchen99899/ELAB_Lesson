@@ -423,6 +423,11 @@
               <FileType>1</FileType>
               <FilePath>..\..\usr\bsp\bsp.c</FilePath>
             </File>
+            <File>
+              <FileName>debug_uart.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\usr\bsp\debug_uart.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -477,6 +482,36 @@
               <FileName>stm32f1xx_hal_cortex.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\..\..\mcu\stm32f103zet6\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.c</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>elab</GroupName>
+          <Files>
+            <File>
+              <FileName>elab_assert.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\..\elab\common\elab_assert.c</FilePath>
+            </File>
+            <File>
+              <FileName>elab_common.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\..\elab\common\elab_common.c</FilePath>
+            </File>
+            <File>
+              <FileName>elab_log.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\..\elab\common\elab_log.c</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>3rd/xfusion</GroupName>
+          <Files>
+            <File>
+              <FileName>xf_utils_log_dump.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\..\elab\3rd\xfusion\xf_utils_log\xf_utils_log_dump.c</FilePath>
             </File>
           </Files>
         </Group>

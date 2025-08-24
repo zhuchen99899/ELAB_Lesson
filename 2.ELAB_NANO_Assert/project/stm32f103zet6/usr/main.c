@@ -9,7 +9,7 @@
  */
 #include "bsp.h"
 #include "../../../elab/common/elab_assert.h"
-
+#include "../../../elab/common/elab_log.h"
 ELAB_TAG("main");
 
 
@@ -20,7 +20,7 @@ ELAB_TAG("main");
 int main(void)
 {
  BSP_Init();
-
+elog_debug("test");
   while (1)
   {
   HAL_Delay(2000); 
