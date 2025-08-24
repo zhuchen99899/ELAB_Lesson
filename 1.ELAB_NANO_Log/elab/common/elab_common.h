@@ -28,10 +28,8 @@
 uint32_t elab_time_ms(void);
  /* ==================== [Macros] ============================================ */
  
- #ifdef __cplusplus
- }
- #endif
- 
- #endif	/* ELAB_COMMON_H */
- 
- 
+#ifdef __cplusplus
+}
+#endif
+
+#endif	/* ELAB_COMMON_H */

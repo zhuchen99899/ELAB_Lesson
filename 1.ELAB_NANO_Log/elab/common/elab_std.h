@@ -37,5 +37,3 @@ extern "C"{
 #endif
 
 #endif	/* ELAB_STD_H */
- 
- 

@@ -339,7 +339,7 @@
               <MiscControls></MiscControls>
               <Define>USE_HAL_DRIVER,STM32F103xE</Define>
               <Undefine></Undefine>
-              <IncludePath>..\..\..\..\mcu\stm32f103zet6\STM32F1xx_HAL_Driver\Inc;..\..\..\..\mcu\stm32f103zet6\CMSIS\Include;..\..\..\..\mcu\stm32f103zet6\CMSIS\Device\ST\STM32F1xx\Include;..\..\usr\bsp;..\..\usr\core</IncludePath>
+              <IncludePath>..\..\..\..\mcu\stm32f103zet6\STM32F1xx_HAL_Driver\Inc;..\..\..\..\mcu\stm32f103zet6\CMSIS\Include;..\..\..\..\mcu\stm32f103zet6\CMSIS\Device\ST\STM32F1xx\Include;..\..\usr\bsp;..\..\usr\core;..\..\..\..\elab\3rd\xfusion\xf_common;..\..\..\..\elab\3rd\xfusion\xf_utils_log;..\..\..\..\elab\3rd\xfusion;..\..\..\..\elab\common</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -423,6 +423,11 @@
               <FileType>1</FileType>
               <FilePath>..\..\usr\bsp\bsp.c</FilePath>
             </File>
+            <File>
+              <FileName>debug_uart.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\usr\bsp\debug_uart.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -477,6 +482,31 @@
               <FileName>stm32f1xx_hal_cortex.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\..\..\mcu\stm32f103zet6\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.c</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>3rd/xfusion</GroupName>
+          <Files>
+            <File>
+              <FileName>xf_utils_log_dump.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\..\elab\3rd\xfusion\xf_utils_log\xf_utils_log_dump.c</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>elab/common</GroupName>
+          <Files>
+            <File>
+              <FileName>elab_log.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\..\elab\common\elab_log.c</FilePath>
+            </File>
+            <File>
+              <FileName>elab_common.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\..\elab\common\elab_common.c</FilePath>
             </File>
           </Files>
         </Group>

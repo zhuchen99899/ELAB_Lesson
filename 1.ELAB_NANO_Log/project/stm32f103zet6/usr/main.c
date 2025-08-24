@@ -15,18 +15,20 @@ ELAB_TAG("main");
 uint8_t data[]={0xaa,0xbc,0xff,0x12,0xef};
 uint8_t string[]="hello world";
 uint8_t string2[]="hello world\r\n";
+
+
 /**
   * @brief  The application entry point.
   * @retval int
   */
 int main(void)
 {
-
-  BSP_Init();
+ BSP_Init();
+ 
   while (1)
   {
-    /* USER CODE END WHILE */
 
+  
     elog_debug("debug hello world");
     elog_info("info hello world");
     elog_warn("warn hello world");

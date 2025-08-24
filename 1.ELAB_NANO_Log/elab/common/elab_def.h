@@ -41,10 +41,8 @@
  
  /* ==================== [Macros] ============================================ */
  
- #ifdef __cplusplus
- }
- #endif
- 
- #endif	/* ELAB_DEF_H */
- 
- 
+#ifdef __cplusplus
+}
+#endif
+
+#endif	/* ELAB_DEF_H */
